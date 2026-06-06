@@ -1,0 +1,102 @@
+# =====================================
+# Java / Eclipse
+# =====================================
+
+# Compiled Java class files
+bin/
+*.class
+
+# Eclipse project files (machine-specific paths)
+.classpath
+.project
+.settings/
+.metadata/
+*.prefs
+
+# =====================================
+# Browser Drivers (large binaries)
+# =====================================
+Drivers/
+*.exe
+*.msi
+
+# =====================================
+# External Libraries / JARs (should be managed by build tool)
+# =====================================
+poi/
+SeleniumServer/
+*.jar
+*.war
+
+# =====================================
+# Generated Outputs
+# =====================================
+
+# Screenshots captured during test runs
+Photo/
+
+# =====================================
+# Sensitive Data / Credentials
+# =====================================
+
+# Properties files containing plaintext usernames/passwords
+data.properties
+
+# Excel test data files (may contain sensitive credentials)
+*.xlsx
+*.xls
+
+# =====================================
+# OS-Specific Files
+# =====================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+# =====================================
+# Log Files
+# =====================================
+*.log
+*.trace
+
+# =====================================
+# IDE / Editor Files
+# =====================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# NetBeans
+nbproject/
+nbactions.xml
+
+# =====================================
+# Git & Temporary Files
+# =====================================
+*.tmp
+*.swp
+*.swo
+*~
+.Directory
